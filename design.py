@@ -15,7 +15,7 @@ os.system('gem install lolcat')
 output = '/data/data/com.termux/files/usr/etc/'
 
 print('')
-name = 'raw_input'('Input your Name : ')
+name = input ('Input your Name : ')
 
 wlc = '''
 import os,sys,time,random
